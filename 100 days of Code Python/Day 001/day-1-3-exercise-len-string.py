@@ -1,0 +1,1 @@
+print(len(input("What is the length of your name? ")))
