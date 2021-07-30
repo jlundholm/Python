@@ -1,3 +1,9 @@
+# Jared Lundholm 2021
+# Passphrase Generator version 1.1
+# Word list imported from www.eff.org/dice
+# The program will randomly choose the number of words the user inputs from the word list.
+# It will them randomly order those chosen words before presenting them as a passphrase.
+
 import random
 import wordlist
 
