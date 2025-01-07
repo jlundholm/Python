@@ -12,10 +12,12 @@ elif size == "M":
     total += 20
     if pepperoni == "Y":
         total += 3
-else:
+elif size == "L":
     total += 25
     if pepperoni == "Y":
         total += 3
+else:
+    print("You typed the wrong inputs.")
 
 if extra_cheese == "Y":
     total += 1
